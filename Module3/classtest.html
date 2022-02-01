@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title> Animation </title>
+    <script src="jquery-3.1.1.min.js"></script>
+
+        <!---Animation Settings-->
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    function rgt() {
+                        $('#slider').animate({left: "100"}, 15000, hider);
+                   }  
+                    rgt();
+                   function hider(){
+                       $('slider').css('left', '0px');
+
+                   } 
+
+                });
+
+        </script>
+        </head>
+
+        <body>
+            <p>We are trying out something new</p>
+            <form id="form1" runat="server">
+                <div>
+                    <img id="slider" src="Shooting.gif" style="position: absolute;" />
+                </div>
+            </form>
+
+        </body>
+</html>

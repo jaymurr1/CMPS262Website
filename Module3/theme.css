@@ -1,0 +1,15 @@
+p {
+    font-size: 3em;
+    color:blueviolet
+}
+
+p.big{ 
+    font-size: 6em;
+
+
+}
+
+p.reduce{
+    font-size: 1.5em;
+
+}

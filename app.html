@@ -1,0 +1,30 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <script src= "jquery-3.1.1.min.js>"></script>
+
+    <h1> Welcome to my humble abode.</h1>
+
+    <!--Enlarge items-->
+    <p class="enlargeable">Buccs really thought they won LMFAO</p>
+    <p class="enlargeable">My friend bet 1 grand rip</p>
+
+
+    <!--Buttons-->
+    <button id="enlarge">ENLARGE</button>
+    <button id="reduce">smallify</button>
+
+    <!--Script for action event-->
+    <script>
+        //increase the font size by clickign the button
+        $("button#enlarge").on("click",function(){
+            $("p.enlargeable").addClass("big");
+        });
+
+        //decrease object by clicking button
+        $("button#reduce").on("click",function(){
+            $("p.enlargeable").removeClass("big");
+        });
+    </script>
+
+
+</html>
